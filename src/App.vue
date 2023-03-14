@@ -39,6 +39,7 @@
 
     <v-main>
       <GuideCard 
+      v-if="showUserGuide"
       :destroy="closeUserGuide"
       />
     </v-main>
