@@ -1,28 +1,9 @@
 <template>
-    <v-container fluid class="pa-0">
-        <v-card dark color="blue">
-                <v-card-title 
-                display-3 
-                class="text-h4 pa-2 d-flex justify-center"
-                >
-                    {{ greeting }}
-                </v-card-title>
-                <v-card-text class="text-4">
-                    {{ info }}
-                </v-card-text>
-                <v-btn 
-                color="black"
-                plain
-                 >
-                    cancel
-                </v-btn>
-
-                <v-btn depressed color="primary">
-                    next
-                </v-btn>
-            <v-spacer></v-spacer>
-        </v-card>
-    </v-container>
+    <v-card>
+        <h3>
+            {{ greeting }}
+        </h3>
+    </v-card>
 </template>
 
 <script>
