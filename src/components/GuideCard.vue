@@ -1,9 +1,12 @@
 <template>
     <v-container>
         <v-card v-for="tip in tips" :key="tip.name">
-            {{ tip.info }}
-            <v-btn>CLOSE</v-btn>
-            <v-btn>NEXT</v-btn>
+            <v-card-text>
+                {{ tip.info }}
+            </v-card-text>
+            <v-btn flat>CLOSE</v-btn>
+            <v-spacer></v-spacer>
+            <v-btn flat>NEXT</v-btn>
         </v-card>
     </v-container>
 </template>
