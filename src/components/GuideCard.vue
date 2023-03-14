@@ -7,10 +7,10 @@
                 <v-card-text>
                     {{ info }}
                 </v-card-text>
-                <v-btn>
+                <v-btn class="black white--text">
                     close
                 </v-btn>
-                <v-btn>
+                <v-btn depressed color="primary">
                     next
                 </v-btn>
             <v-spacer></v-spacer>
