@@ -7,7 +7,7 @@
                 >
                     {{ greeting }}
                 </v-card-title>
-                <v-card-text class="pa-2 d-flex justify-center">
+                <v-card-text class="text-4">
                     {{ info }}
                 </v-card-text>
                 <v-btn 
