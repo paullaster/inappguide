@@ -1,5 +1,5 @@
 <template>
-    <v-card>
+    <v-card align-content-sm>
         <h3>
             {{ greeting }}
         </h3>
