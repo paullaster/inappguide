@@ -58,7 +58,8 @@ export default {
   }),
   methods: {
     closeUserGuide(){
-      
+      let vm = this;
+      vm.$destroy();
     }
   }
 };
