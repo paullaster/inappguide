@@ -1,15 +1,15 @@
 <template>
     <v-container fluid class="pa-0">
         <v-card dark color="blue">
-                <h2 
+                <v-card-title 
                 display-3 
                 class="text-h4 pa-2 d-flex justify-center"
                 >
                     {{ greeting }}
-                </h2>
-                <p class="pa-2 d-flex justify-center">
+                </v-card-title>
+                <v-card-text class="pa-2 d-flex justify-center">
                     {{ info }}
-                </p>
+                </v-card-text>
                 <v-btn 
                 color="black"
                 plain
