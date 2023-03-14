@@ -6,7 +6,7 @@
             </v-card-text>
             <v-btn flat>CLOSE</v-btn>
             <v-spacer></v-spacer>
-            <v-btn flat>NEXT</v-btn>
+            <v-btn flat class="info">NEXT</v-btn>
         </v-card>
     </v-container>
 </template>
