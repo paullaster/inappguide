@@ -5,8 +5,8 @@
                 {{ tip.info }}
             </v-card-text>
             <div class="px-2">
-                <v-btn>CLOSE</v-btn>
-                <v-btn class="info">NEXT</v-btn>
+                <v- class="ml-0">CLOSE</v->
+                <v-btn class="info mr-0">NEXT</v-btn>
             </div>
         </v-card>
     </v-container>
