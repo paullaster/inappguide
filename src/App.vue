@@ -56,5 +56,10 @@ export default {
   data: () => ({
     //
   }),
+  methods: {
+    closeUserGuide(){
+      
+    }
+  }
 };
 </script>
