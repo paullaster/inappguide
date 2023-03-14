@@ -4,11 +4,11 @@
             <v-card-text>
                 {{ tip.info }}
             </v-card-text>
-            <v-layout row justify-space-around>
-                <v-flex>
+            <v-layout row>
+                <v-flex sm6 >
                     <v-btn >CLOSE</v-btn>
                 </v-flex>
-                <v-flex>
+                <v-flex sm6>
                     <v-btn  class="info">NEXT</v-btn>
                 </v-flex>
             </v-layout>
