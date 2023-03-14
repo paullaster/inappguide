@@ -30,9 +30,12 @@ export default {
                 }
             ]
         }
-    }
+    },
     props: {
-        
+        destroy: {
+            type: String,
+        required: true
+    },
     }
 }
 
