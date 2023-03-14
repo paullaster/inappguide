@@ -56,7 +56,7 @@ export default {
   },
 
   data: () => ({
-    showUserGuide: false
+    showUserGuide: true,
   }),
   methods: {
     closeUserGuide(){
