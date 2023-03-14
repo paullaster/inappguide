@@ -4,7 +4,7 @@
             <v-card-text>
                 {{ tip.info }}
             </v-card-text>
-            <v-layout row>
+            <v-layout row justify-space-around>
                 <v-flex>
                     <v-btn >CLOSE</v-btn>
                 </v-flex>
