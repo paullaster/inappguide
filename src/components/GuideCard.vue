@@ -12,8 +12,12 @@ export default {
     name: 'GuideCard',
     data: function () {
         return {
-            greeting: "Welcome to phoebe",
-            info: "Let's take you through the core functions of our application!"
+            tips: [
+                {
+                    name: 'home screen',
+                    info: "Let's take tour of the core functions of our application"
+                }
+            ]
         }
     }
 }
