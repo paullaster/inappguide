@@ -10,9 +10,13 @@
                 <p class="pa-2 d-flex justify-center">
                     {{ info }}
                 </p>
-                <v-btn class="black white--text">
-                    close
+                <v-btn 
+                color="grey"
+                plain
+                 >
+                    cancel
                 </v-btn>
+
                 <v-btn depressed color="primary">
                     next
                 </v-btn>
