@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <v-card>
+        <v-card dark color="blue">
         <v-card-title class="text-h4" >
             {{ greeting }}
         </v-card-title>
