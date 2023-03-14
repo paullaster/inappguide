@@ -1,12 +1,14 @@
 <template>
     <v-container>
-        <v-card v-for="tip in tips" :key="tip.name"  dark color="blue">
+        <v-card v-for="tip in tips" :key="tip.name" dark color="blue">
             <v-card-text>
                 {{ tip.info }}
             </v-card-text>
-            <v-layout>
-                <v-btn flat>CLOSE</v-btn>
-            <v-btn flat class="info">NEXT</v-btn>
+            <v-layout row>
+                <v-flex></v-flex>
+                <v-flex></v-flex>
+                <v-btn >CLOSE</v-btn>
+                <v-btn  class="info">NEXT</v-btn>
             </v-layout>
         </v-card>
     </v-container>
