@@ -38,18 +38,19 @@
     </v-app-bar>
 
     <v-main>
+      <GuideCard />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import './components/GuideCard.vue';
+import GuideCard from './components/GuideCard.vue';
 
 export default {
   name: 'App',
 
   components: {
-    
+    GuideCard
   },
 
   data: () => ({
