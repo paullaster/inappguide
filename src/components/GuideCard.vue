@@ -4,6 +4,9 @@
         <v-card-title class="text-h4" >
             {{ greeting }}
         </v-card-title>
+        <v-card-text>
+            {{ info }}
+        </v-card-text>
     </v-card>
     </v-container>
 </template>
