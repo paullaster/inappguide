@@ -1,7 +1,10 @@
 <template>
     <v-container fluid class="pa-0">
         <v-card dark color="blue">
-                <h2 class="text-h4">
+                <h2 
+                display-3 
+                class="text-h4 pa-2 d-flex justify-center"
+                >
                     {{ greeting }}
                 </h2>
                 <p class="pa-2 d-flex justify-center">
