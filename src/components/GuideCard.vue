@@ -1,12 +1,12 @@
 <template>
     <v-container fluid class="pa-0">
         <v-card dark color="blue">
-                <v-card-title class="text-h4">
+                <h2 class="text-h4">
                     {{ greeting }}
-                </v-card-title>
-                <v-card-text>
+                </h2>
+                <p class="pa-2 d-flex justify-center">
                     {{ info }}
-                </v-card-text>
+                </p>
                 <v-btn class="black white--text">
                     close
                 </v-btn>
@@ -24,7 +24,7 @@ export default {
     name: 'GuideCard',
     data: function () {
         return {
-            greeting: "Welcome to phoebe!",
+            greeting: "Welcome to phoebe",
             info: "Let's take you through the core functions of our application!"
         }
     }
