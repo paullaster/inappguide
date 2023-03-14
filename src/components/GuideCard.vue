@@ -31,6 +31,9 @@ export default {
             ]
         }
     }
+    props: {
+        
+    }
 }
 
 </script>
