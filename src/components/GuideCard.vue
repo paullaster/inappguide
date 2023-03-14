@@ -4,7 +4,7 @@
             <v-card-text>
                 {{ tip.info }}
             </v-card-text>
-            <div class="px-4 d-flex flex-row">
+            <div class="px-4 d-flex flex-row justify-space-around">
                 <v-btn class="d-block">CLOSE</v-btn>
                 <v-btn class="d-block info">NEXT</v-btn>
             </div>
