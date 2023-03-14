@@ -43,7 +43,7 @@
 </template>
 
 <script>
-
+import './components/GuideCard.vue';
 
 export default {
   name: 'App',
