@@ -30,7 +30,7 @@ export default {
     },
     props: {
         destroy: {
-            type: String,
+            type: Function,
             required: true
         },
     }
