@@ -38,7 +38,9 @@
     </v-app-bar>
 
     <v-main>
-      <GuideCard />
+      <GuideCard 
+      :destroy="closeUserGuide"
+      />
     </v-main>
   </v-app>
 </template>
