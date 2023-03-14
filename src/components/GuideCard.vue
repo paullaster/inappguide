@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <v-card>
-        <v-card-title >
+        <v-card-title class="text-h2" dense>
             {{ greeting }}
         </v-card-title>
     </v-card>
