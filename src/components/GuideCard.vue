@@ -7,6 +7,12 @@
         <v-card-text>
             {{ info }}
         </v-card-text>
+        <v-btn>
+            close
+        </v-btn>
+        <v-btn>
+            next
+        </v-btn>
     </v-card>
     </v-container>
 </template>
