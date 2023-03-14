@@ -1,6 +1,6 @@
 <template>
-    <v-card align-content-sm>
-        <h3>
+    <v-card >
+        <h3 ma-sm-4>
             {{ greeting }}
         </h3>
     </v-card>
