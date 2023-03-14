@@ -1,9 +1,9 @@
 <template>
-    <v-card dark class="pa-md-4 mx-lg-auto" color="blue">
-        <h3>
-            {{ greeting }}
-        </h3>
-    </v-card>
+    <v-container>
+        <v-card v-for="tip in tips" :key="tip.name">
+
+        </v-card>
+    </v-container>
 </template>
 
 <script>
