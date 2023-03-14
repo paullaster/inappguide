@@ -5,10 +5,12 @@
                 {{ tip.info }}
             </v-card-text>
             <v-layout row>
-                <v-flex></v-flex>
-                <v-flex></v-flex>
-                <v-btn >CLOSE</v-btn>
-                <v-btn  class="info">NEXT</v-btn>
+                <v-flex>
+                    <v-btn >CLOSE</v-btn>
+                </v-flex>
+                <v-flex>
+                    <v-btn  class="info">NEXT</v-btn>
+                </v-flex>
             </v-layout>
         </v-card>
     </v-container>
