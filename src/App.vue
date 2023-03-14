@@ -60,7 +60,7 @@ export default {
   }),
   methods: {
     closeUserGuide(){
-      return !this.showUserGuide
+      return this.showUserGuide = !this.showUserGuide
     }
   }
 };
