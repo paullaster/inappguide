@@ -7,6 +7,7 @@
         <v-card-text>
             {{ info }}
         </v-card-text>
+        <v-spacer></v-spacer>
         <v-btn>
             close
         </v-btn>
