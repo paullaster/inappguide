@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <v-card v-for="tip in tips" :key="tip.name" dark color="blue">
+        <v-card v-for="tip in tips" :key="tip.name" dark color="blue" class="mb-2">
             <v-card-text>
                 {{ tip.info }}
             </v-card-text>
