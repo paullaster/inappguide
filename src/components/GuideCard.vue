@@ -5,10 +5,7 @@
                 {{ tip.info }}
             </v-card-text>
             <div class="px-4 d-flex flex-row justify-space-between">
-                <v-btn 
-                    class="d-block"
-                    @click="closeUserGuide"
-                >
+                <v-btn class="d-block" @click="destroy">
                     CLOSE
                 </v-btn>
                 <v-btn class="d-block info">NEXT</v-btn>
@@ -34,8 +31,8 @@ export default {
     props: {
         destroy: {
             type: String,
-        required: true
-    },
+            required: true
+        },
     }
 }
 
