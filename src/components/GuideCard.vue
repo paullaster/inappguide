@@ -11,7 +11,7 @@
                     {{ info }}
                 </p>
                 <v-btn 
-                color="grey"
+                color="black"
                 plain
                  >
                     cancel
