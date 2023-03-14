@@ -1,6 +1,6 @@
 <template>
-    <v-card >
-        <h3 ma-sm-4>
+    <v-card dark class="pa-md-4 mx-lg-auto" color="blue">
+        <h3>
             {{ greeting }}
         </h3>
     </v-card>
